@@ -41,7 +41,7 @@ const ClipLiveStream = () => {
     <>
       <h1>Clip Live Stream demo</h1>
       <MuxVideo
-        style={{ height: "100%", maxWidth: "100%" }}
+        style={{ height: "100%", maxWidth: "600px" }}
         ref={videoRef}
         playbackId="DS00Spx1CV902MCtPj5WknGlR102V5HFkDe"
         metadata={{
@@ -62,7 +62,6 @@ const ClipLiveStream = () => {
           <>
             <h1>Sick replay!!!</h1>
             <MuxVideo
-              style={{ height: "100%", maxWidth: "100%" }}
               ref={videoRef}
               playbackId={clipPlaybackId}
               streamType="on-demand"
